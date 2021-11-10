@@ -16,7 +16,7 @@ int main(){
 	printf("Informe o valor desejado: ");
 	scanf("%f",&x);
 	
-	y=x/5;
+	y = x / 5;
 	
 	system("cls");
 	
