@@ -9,19 +9,19 @@
 #include <windows.h>
 
 int main(){
-	float m,k;
+	float ms,km;
 	
 	UINT cpage_utf8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 
 	printf("Informe a velocidade em quilômetros por hora (KM/H): ");
-	scanf("%f",&k);
+	scanf("%f",&km);
 	
-	m=(k/3.6);
+	ms=(km/3.6);
 	
 	system("cls");
 	
-	printf("%.2f KM/H = %.2f M/S\n\n",k,m);
+	printf("%.2f KM/H = %.2f M/S\n\n",km,ms);
 	
 	system("pause");
 }
