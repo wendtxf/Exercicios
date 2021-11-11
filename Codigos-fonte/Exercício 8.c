@@ -11,15 +11,15 @@
 int main(){
 	float c,k;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a temperatura em Kelvin (K): ");
 	scanf("%f",&k);
 	
-	c=k-273.15;
-	
 	system("cls");
+	
+	c = k - 273.15;
 	
 	printf("%.2fK = %.2f°C\n\n",k,c);
 	

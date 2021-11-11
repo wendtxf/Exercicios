@@ -11,7 +11,7 @@
 int main(){
 	float k,l;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a massa em libras (lb): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 
-	k=l/2.2046;
+	k = l / 2.2046;
 	
 	printf("%.2f lb = %.2f Kg\n\n",l,k);
 

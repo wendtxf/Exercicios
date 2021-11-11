@@ -10,7 +10,7 @@
 int main(){
     float val,x,desc=12;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o valor: R$ ");
@@ -20,9 +20,9 @@ int main(){
     printf("\nInforme o desconto (%%): ");
     scanf("%f",&desc);
 
-    x = val * desc / 100;
-
     system("cls");
+
+    x = val * desc / 100;
 
     printf("Valor: R$ %.2f\n\n",val);
     

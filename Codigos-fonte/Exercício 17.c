@@ -11,7 +11,7 @@
 int main(){
 	float p,c;
 
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 
 	printf("Informe o comprimento em centímetros (cm): ");
@@ -19,7 +19,7 @@ int main(){
 
 	system("cls");
 
-	p=c/2.54;
+	p = c / 2.54;
 
 	printf("%.2f cm = %.5f in\n\n",c,p);
 

@@ -13,7 +13,7 @@ int main(){
     int a,b;
     float hip;
     
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o valor do cateto A: ");
@@ -22,9 +22,9 @@ int main(){
     printf("Informe o valor do cateto B: ");
     scanf("%d",&b);
 
-    hip = sqrt(pow(a,2) + pow(b,2));
-
     system("cls");
+
+    hip = sqrt(pow(a,2) + pow(b,2));
 
     printf("Cateto A: %d\n",a);
 

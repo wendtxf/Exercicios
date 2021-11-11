@@ -11,7 +11,7 @@
 int main(){
 	float x,y;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 
 	printf("Informe o valor desejado: ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 
-	y=pow(x,2);
+	y = pow(x,2);
 	
 	printf("%.0f² = %.2f\n\n",x,y);
 	

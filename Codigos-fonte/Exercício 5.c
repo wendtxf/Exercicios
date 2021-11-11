@@ -10,15 +10,15 @@
 int main(){
 	float x,y;
 
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 
 	printf("Informe o valor desejado: ");
 	scanf("%f",&x);
 	
-	y = x / 5;
-	
 	system("cls");
+
+	y = x / 5;
 	
 	printf("A quinta parte de %.0f é %.2f.\n\n",x ,y);
 	

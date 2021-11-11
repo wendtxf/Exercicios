@@ -11,16 +11,16 @@
 int main(){
 	float k,c;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a temperatura em Celsius (°C): ");
 	scanf("%f",&c);
-	
-	k=c+273.15;
-	
+
 	system("cls");
 	
+	k = c + 273.15;
+		
 	printf("%.2f°C = %.2fK\n\n",c,k);
 	
 	system("pause");

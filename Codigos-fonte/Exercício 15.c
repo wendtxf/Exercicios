@@ -11,7 +11,7 @@
 int main(){
 	float g,r,pi=3.14159;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o ângulo em radianos: ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	g=r*180/pi;
+	g = r * 180 / pi;
 	
 	printf("%.2frad = %.3f°\n\n",r,g);
 	

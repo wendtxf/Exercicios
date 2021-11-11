@@ -11,15 +11,15 @@
 int main(){
 	float c,f;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a temperatura em Fahrenheit (°F): ");
 	scanf("%f",&f);
 	
-	c=5.0*(f-32.0)/9.0;
-	
 	system("cls");
+
+	c = 5.0 * (f - 32.0) / 9.0;
 	
 	printf("%.2f°F = %.2f°C\n\n",f ,c);
 	

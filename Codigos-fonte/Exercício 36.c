@@ -13,7 +13,7 @@ int main(){
     int raio,alt;
     float vol,pi=3.14159;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe a Altura: ");
@@ -22,9 +22,9 @@ int main(){
     printf("Informe o Raio: ");
     scanf("%d",&raio);
 
-    vol = pi * pow(raio,2) * alt;
-
     system("cls");
+
+    vol = pi * pow(raio,2) * alt;
 
     printf("Raio: %d\n",raio);
 

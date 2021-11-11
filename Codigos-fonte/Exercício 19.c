@@ -11,7 +11,7 @@
 int main(){
 	float m,l;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o volume em litros (L): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	m=l/1000;
+	m = l / 1000;
 	
 	printf("%.2f L = %.3f M³\n\n",l,m);
 	

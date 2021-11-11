@@ -11,7 +11,7 @@
 int main(){
     float m,ha;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o valor em metros quadrados (M²): ");
@@ -19,7 +19,7 @@ int main(){
 
     system("cls");
     
-    ha=m/10000;
+    ha = m / 10000;
 
     printf("%.2f m² = %.5f ha\n\n",m,ha);
 

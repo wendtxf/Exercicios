@@ -11,7 +11,7 @@
 int main(){
 	float l,m;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o volume em metros cúbicos (M³): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	l=1000*m;
+	l = 1000 * m;
 	
 	printf("%.2f M³ = %.2f L\n\n",m,l);
 	

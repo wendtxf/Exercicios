@@ -12,7 +12,7 @@
 int main(){
     float x,y,din,pri,seg,ter;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Valor da quantia: R$ ");
@@ -38,7 +38,9 @@ int main(){
     ter = din; // ter = 114.816;
 
     printf("Primeiro lugar: R$ %.2f\n\n",pri);
+  
     printf("Segundo lugar: R$ %.2f\n\n",seg);
+  
     printf("Terceiro lugar: R$ %.2f\n\n",ter);
 
     system("pause");

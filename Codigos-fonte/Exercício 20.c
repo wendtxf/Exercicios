@@ -11,7 +11,7 @@
 int main(){
 	float l,k;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a massa em quilogramas (Kg): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	l=k*2.2046;
+	l = k * 2.2046;
 	
 	printf("%.2f Kg = %.5f lb\n\n",k,l);
 	

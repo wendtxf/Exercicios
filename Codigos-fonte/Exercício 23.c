@@ -11,7 +11,7 @@
 int main(){
 	float m,j;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o comprimento em metros (M): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	j=m*1.094;
+	j = m * 1.094;
 	
 	printf("%.2f M = %.5f yd\n\n",m,j);
 	

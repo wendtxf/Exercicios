@@ -10,15 +10,15 @@
 int main(){
     float x,y;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o lado do quadrado: ");
     scanf("%f",&y);
 
-    x = y*y;
-
     system("cls");
-    
+ 
+    x = y * y;
+   
     printf("Área total: %.2f m²\n",x);
 }

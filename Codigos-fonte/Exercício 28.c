@@ -11,7 +11,7 @@
 int main(){
     int v1,v2,v3,x;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
  
     printf("Informe o 1° valor: ");
@@ -22,6 +22,7 @@ int main(){
 
     printf("\nInforme o 3° valor: ");
     scanf("%d",&v3);
+   
     system("cls");
 
     x = pow(v1,2) + pow(v2,2) + pow(v3,2);

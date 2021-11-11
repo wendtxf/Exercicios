@@ -8,15 +8,14 @@
 int main(){
 	int x;
 
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
-	
-	system("cls");
 	
 	printf("Informe o valor: ");
 	scanf("%d",&x);
 	
 	system("cls");
+	
 	printf("Valor digitado: %d\n\n",x);
 	
 	system("pause");

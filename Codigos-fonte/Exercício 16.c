@@ -11,7 +11,7 @@
 int main(){
 	float c,p;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o comprimento em polegadas (in): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	c=p*2.54;
+	c = p * 2.54;
 	
 	printf("%.2f in = %.2f cm\n\n",p,c);
 	

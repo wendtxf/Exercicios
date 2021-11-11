@@ -10,7 +10,7 @@
 int main(){
     float brl,usd, conv;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o valor em reais: R$ ");
@@ -19,9 +19,9 @@ int main(){
     printf("Informe o valor da cotação do dólar: U$D ");
     scanf("%f",&usd);
 
-    conv=brl/usd;
-
     system("cls");
+
+    conv = brl / usd;
 
     printf("%.2f R$ equivalem à %.2f USD\n\n",brl,conv);
 

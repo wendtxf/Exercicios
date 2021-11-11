@@ -11,7 +11,7 @@
 int main(){
 	float m,j;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o comprimento em jardas (yd): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	m=j/1.094;
+	m = j / 1.094;
 	
 	printf("%.2f yd = %.4f M\n\n",j,m);
 

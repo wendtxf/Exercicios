@@ -10,7 +10,7 @@
 int main(){
     float n1,n2,n3,n4,med;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe a 1ª nota: ");
@@ -24,6 +24,7 @@ int main(){
    
     printf("\nInforme a 4ª nota: ");
     scanf("%f",&n4);
+    
     system("cls");
 
     med = (n1 + n2 + n3 + n4) / 4;

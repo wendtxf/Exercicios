@@ -11,7 +11,7 @@
 int main(){
 	float ha,m;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe o valor em acres (ha): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	m=ha*4047;
+	m = ha * 4047;
 	
 	printf("%.2f ha = %.3f m²\n\n",ha,m);
 	

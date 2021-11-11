@@ -11,7 +11,7 @@
 int main(){
 	float km,mi;
 	
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a distância em milhas (M): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	km=mi/0.62137;
+	km = mi / 0.62137;
 	
 	printf("%.2fMI = %.2fKM\n\n",mi,km);
 	

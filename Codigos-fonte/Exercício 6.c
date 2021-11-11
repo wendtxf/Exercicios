@@ -11,7 +11,7 @@
 int main(){
 	float c,f;
 
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 	
 	printf("Informe a temperatura em Celsius (°C): ");
@@ -19,7 +19,7 @@ int main(){
 	
 	system("cls");
 	
-	f=c*(9.0/5.0)+32.0;
+	f = c * (9.0 / 5.0) + 32.0;
 	
 	printf("%.2f°C = %.2f°F\n\n",c,f);
 	

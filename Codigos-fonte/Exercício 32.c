@@ -10,23 +10,29 @@
 int main(){
     int x,suc,ant,nint;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o número: ");
     scanf("%d",&nint);
 
+    system("cls");
+
     suc = nint * 3;
+    
     ant = nint * 2;
 
     x = suc + ant;
 
-    system("cls");
-
     printf("Número informado: %d\n\n",nint);
+   
     printf("Triplo: %d\n",nint * 3);
+   
     printf("Sucessor do Triplo %d\n",suc + 1);
+   
     printf("Dobro: %d\n",nint * 2);
+   
     printf("Antecessor do Dobro: %d\n\n",ant - 1);
+   
     printf("Sucessor do triplo + Antecessor do dobro: %d\n",x);
 }

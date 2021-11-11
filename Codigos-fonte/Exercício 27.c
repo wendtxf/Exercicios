@@ -12,7 +12,7 @@ int main(){
     int m;
     float h;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o valor em hectares (ha): ");
@@ -20,7 +20,7 @@ int main(){
 
     system("cls");
 
-    m=h*10000;
+    m = h * 10000;
 
     if (h >= 1){
         printf("%.0f ha = %d m²\n\n",h,m);      

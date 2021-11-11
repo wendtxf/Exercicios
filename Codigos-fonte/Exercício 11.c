@@ -11,16 +11,16 @@
 int main(){
 	float k,m;
 
-	UINT cpage_utf8 = 65001;
+	UINT CPAGE_UTF8 = 65001;
 	SetConsoleOutputCP(CP_UTF8);
 
 	printf("Informe a velocidade em metros por segundo (M/S): ");
 	scanf("%f",&m);
 	
-	k=(m*3.6);
-	
 	system("cls");
-	
+		
+	k = (m * 3.6);
+
 	printf("%.2f M/S = %.2f KM/H\n\n",m,k);
 	
 	system("pause");

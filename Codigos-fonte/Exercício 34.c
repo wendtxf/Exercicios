@@ -12,15 +12,15 @@
 int main(){
     float raio,area,pi=3.141592;
 
-    UINT cpage_utf8 = 65001;
+    UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP(CP_UTF8);
 
     printf("Informe o raio: ");
     scanf("%f",&raio);
-  
-    area = pi * pow(raio,2);
 
     system("cls");
+  
+    area = pi * pow(raio,2);
 
     printf("Área do circulo: %.3f\n\n",area);
 
